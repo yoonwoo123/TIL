@@ -58,7 +58,7 @@ $ git status
 
 사전에 github에 저장소(repository)를 만들어 놓는다.
 
-1. github 저장소(원격저장소) `url`를 `origin` 이라는 이름으로 저장한다.
+1. github 저장소(원격저장소) `url`를 `origin` 이라는 이름으로git 저장한다.
 
 ```
 $ git remote add origin https://github.com/yoonwoo123/TIL.git
