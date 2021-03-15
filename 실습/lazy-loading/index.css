@@ -1,0 +1,23 @@
+.image {
+  width: 300px;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+  margin-top: 400px;
+}
+
+.lazy {
+  width: 300px;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+  margin-top: 400px;
+  opacity: 0;
+  transform: translateX(-50%);
+  transition: all 0.5s;
+}
+.fade {
+  transform: translateX(0);
+  transition: all 0.5s;
+  opacity: 1;
+}
